@@ -1,6 +1,3 @@
-# summer-heat-waves-alert-system
-"Summer Heat Waves Mobile Alert System using Predictive Models."
-
 # Summer Heatwave Alert System
 
 This project is a Flask-based web application that uses machine learning to predict heatwaves and send alerts via a web/mobile interface.
