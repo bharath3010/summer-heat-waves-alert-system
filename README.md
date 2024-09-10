@@ -35,11 +35,3 @@ Download a weather dataset that contains temperature, humidity, wind speed, and 
 Ensure the dataset has a "heatwave" or similar column indicating whether a heatwave occurred (binary: 0 for no heatwave, 1 for heatwave).
 Rename it to heatwave_data.csv and place it in your project folder.
 ```
-## File Structure
-```bash
-heatwave_prediction.py: Script for training the machine learning model.
-app.py: Flask app for heatwave alerts.
-static/: Static files for the web interface.
-templates/: HTML templates for rendering web pages.
-models/: Contains the trained model.
-```
