@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heatwave Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Heatwave Alert System</h1>
+        <form method="POST" action="/predict">
+            <input type="text" name="temperature" placeholder="Temperature (°C)" required>
+            <input type="text" name="humidity" placeholder="Humidity (%)" required>
+            <input type="text" name="wind_speed" placeholder="Wind Speed (km/h)" required>
+            <button type="submit">Predict</button>
+        </form>
+        <h2>{{ prediction_text }}</h2>
+    </div>
+</body>
+</html>
